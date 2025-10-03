@@ -830,6 +830,12 @@ h1 {
     font-size: 0.9rem;
     color: #555;           /* สีตัวอักษร */
 }
+.footer-text-center {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto; /* เพิ่มบรรทัดนี้เพื่อจัดบล็อกให้อยู่ตรงกลางแนวนอน */
+}
+
 
 /* Contact Info Styling */
 .contact-info {
@@ -1087,4 +1093,7 @@ p a:hover {
     .feature-stats {
         justify-content: center;
     }
+
+
+
 }
